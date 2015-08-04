@@ -1,0 +1,39 @@
+{
+  "name": "felixh-walkthrough-example",
+  "version": "1.0.0",
+  "description": "Example project for the walkthrough of using coffee and react for frontend developement",
+  "main": "app.js",
+  "scripts": {
+    "start": "coffee server.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felix Hao",
+  "license": "MIT",
+  "dependencies": {
+    "jQuery": "^1.7.4",
+    "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "react-bootstrap": "^0.24.3",
+    "react-router": "^0.13.3"
+  },
+  "devDependencies": {
+    "cjsx-loader": "^2.0.1",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.9.3",
+    "css-loader": "^0.15.6",
+    "exports-loader": "^0.6.2",
+    "expose-loader": "^0.7.0",
+    "grunt": "^0.4.5",
+    "grunt-sass": "^1.0.0",
+    "grunt-webpack": "^1.0.11",
+    "imports-loader": "^0.6.4",
+    "jsx-loader": "^0.13.2",
+    "load-grunt-tasks": "^3.2.0",
+    "node-sass": "^3.2.0",
+    "react-hot-loader": "^1.2.8",
+    "sass-loader": "^1.0.4",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.10.5",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
