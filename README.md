@@ -101,9 +101,9 @@ The example project serves as an example AND a template as well.
 ## Full Walkthrough
 
 1. Create `package.json`
-    Run `npm init` to create a `package.json` in the root folder. It maintains all the NPM dependencies. Follow the instructions of `npm`. Entry point is irrelevant.
+    * Run `npm init` to create a `package.json` in the root folder. It maintains all the NPM dependencies. Follow the instructions of `npm`. Entry point is irrelevant.
 2. Create source files
-    Create the following files:
+    * Create the following files:
     * index.html
     * app.coffee
     * server.coffee
@@ -111,19 +111,19 @@ The example project serves as an example AND a template as well.
         - App.cjsx
         - App.sass
         - index.coffee
-    See example project for file contents.
+    * See example project for file contents.
 3. Create `gruntfile.coffee`
-    Create `gruntfile.coffee`. See example project for file contents.
+    * Create `gruntfile.coffee`. See example project for file contents.
 4. Create `webpack.config.coffee` & `webpack.production.config.coffee`
-    Create `webpack.config.coffee` and `webpack.production.config.coffee`. See example project for file contents.
+    * Create `webpack.config.coffee` and `webpack.production.config.coffee`. See example project for file contents.
 5. Install dependencies
-    Run `npm install --save jquery react react-bootstrap react-router`
-    Run `npm install -g grunt-cli coffee-script`
-    Run `npm install --save-dev grunt load-grunt-tasks grunt-webpack grunt-load webpack webpack-dev-server react-hot-loader coffee-loader cjsx-loader jsx-loader css-loader style-loader exports-loader imports-loader expose-loader node-sass sass-loader grunt-sass`
-    Check if the dependencies in your `package.json` looks the same as the `package.json` in example project.
+    * Run `npm install --save jquery react react-bootstrap react-router`
+    * Run `npm install -g grunt-cli coffee-script`
+    * Run `npm install --save-dev grunt load-grunt-tasks grunt-webpack grunt-load webpack webpack-dev-server react-hot-loader coffee-loader cjsx-loader jsx-loader css-loader style-loader exports-loader imports-loader expose-loader node-sass sass-loader grunt-sass`
+    * Check if the dependencies in your `package.json` looks the same as the `package.json` in example project.
 6. Run dev-server (for hot reloading and incremental watch)
-    Run `coffee server.coffee`
+    * Run `coffee server.coffee`
 7. Bundle up for production
-    Run `grunt dist`
+    * Run `grunt dist`
 8. See in action
-    Run `coffee app.coffee` then go to http://localhost:3000
+    * Run `coffee app.coffee` then go to http://localhost:3000
