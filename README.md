@@ -69,6 +69,8 @@ A brief walkthrough on working with Coffee&React
         + NPM packages (node_modules\\*)
         + browser packages (assets\\*.js)
 
+![in a nutshell](https://raw.githubusercontent.com/felixhao28/using-coffee-react-for-frontend-dev-walkthrough/master/nutshell.png)
+
 (**Why no bower?**: using two package managers is confusing)
 
 * Manual (via CLI)
