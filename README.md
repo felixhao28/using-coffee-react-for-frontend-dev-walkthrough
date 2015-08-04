@@ -4,6 +4,8 @@ Written on Aug/4/2015.
 
 A brief walkthrough on working with Coffee&React
 
+The example project serves as an example AND a template as well.
+
 ## Libraries
 
 * jQuery
